@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 app.get('/', async (req, res) => {
     res.json({
-        mesg: "Hello from Backend!!"
+        mesg: "Hello from Backend!"
     })
 })
 
